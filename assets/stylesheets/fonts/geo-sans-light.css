@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Geo Sans";
+  src: local("Geo Sans"), url("http://cdn.lab9.ch:64061/static/asset/font/geo_sans_light/GeosansLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Geo Sans";
+  src: local("Geo Sans"), url("http://cdn.lab9.ch:64061/static/asset/font/geo_sans_light/GeosansLight-Oblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: oblique;
+}
+
+/*# sourceMappingURL=geo-sans-light.css.map */

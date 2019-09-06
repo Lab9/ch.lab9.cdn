@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Minimal";
+  src: local("Minimal"), url("http://cdn.lab9.ch:64061/static/asset/font/minimal/minimal.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=minimal.css.map */

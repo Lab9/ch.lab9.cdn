@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand"), url("http://cdn.lab9.ch:64061/static/font/quicksand/Quicksand_Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand"), url("http://cdn.lab9.ch:64061/static/font/quicksand/Quicksand_Bold_Oblique.otf") format("opentype");
+  font-weight: 700;
+  font-style: oblique;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand"), url("http://cdn.lab9.ch:64061/static/asset/font/quicksand/Quicksand_Book.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand"), url("http://cdn.lab9.ch:64061/static/asset/font/quicksand/Quicksand_Book_Oblique.otf") format("opentype");
+  font-weight: 500;
+  font-style: oblique;
+}
+@font-face {
+  font-family: "Quicksand Dash";
+  src: local("Quicksand Dash"), url("http://cdn.lab9.ch:64061/static/asset/font/quicksand/Quicksand_Dash.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand"), url("http://cdn.lab9.ch:64061/static/asset/font/quicksand/Quicksand_Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand"), url("http://cdn.lab9.ch:64061/static/asset/font/quicksand/Quicksand_Light_Oblique.otf") format("opentype");
+  font-weight: 300;
+  font-style: oblique;
+}
+
+/*# sourceMappingURL=quicksand.css.map */

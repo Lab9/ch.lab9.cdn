@@ -1,0 +1,57 @@
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-none {
+  border-radius: 0;
+}
+.rounded-none-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.rounded-none-top-left {
+  border-top-left-radius: 0;
+}
+.rounded-none-top-right {
+  border-top-right-radius: 0;
+}
+.rounded-none-right {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.rounded-none-right-bottom {
+  border-bottom-right-radius: 0;
+}
+.rounded-none-right-top {
+  border-top-right-radius: 0;
+}
+.rounded-none-bottom {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.rounded-none-bottom-left {
+  border-bottom-left-radius: 0;
+}
+.rounded-none-bottom-right {
+  border-bottom-right-radius: 0;
+}
+.rounded-none-left {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.rounded-none-left-top {
+  border-top-left-radius: 0;
+}
+.rounded-none-left-bottom {
+  border-bottom-left-radius: 0;
+}
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+
+/*# sourceMappingURL=corners.css.map */

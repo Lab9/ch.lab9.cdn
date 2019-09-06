@@ -1,0 +1,119 @@
+@mixin font-weight-thin
+  font-weight: 100
+
+@mixin font-weight-light
+  font-weight: 300
+
+@mixin font-weight-regular
+  font-weight: 400
+
+@mixin font-weight-medium
+  font-weight: 500
+
+@mixin font-weight-bold
+  font-weight: 700
+
+@mixin font-weight-black
+  font-weight: 900
+
+.display
+  &-4
+    font-size: 5.99em
+    @include font-weight-light
+
+  &-3
+    font-size: 3.744em
+    @include font-weight-light
+
+  &-2
+    font-size: 2.995em
+    @include font-weight-regular
+
+  &-1
+    font-size: 2.122em
+    @include font-weight-regular
+
+.headline
+  font-size: 1.498em
+  @include font-weight-regular
+
+.title
+  font-size: 1.248em
+  @include font-weight-medium
+
+.subtitle
+  &-1
+    font-size: 0.998em
+    @include font-weight-regular
+
+  &-2
+    font-size: 0.874em
+    @include font-weight-medium
+
+.body
+  &-1
+    font-size: 0.998em
+    @include font-weight-regular
+
+  &-2
+    font-size: 0.874em
+    @include font-weight-regular
+
+.caption
+  font-size: 0.749em
+  @include font-weight-regular
+
+.overline
+  font-size: 0.624em
+  @include font-weight-regular
+
+.font
+  &-italic
+    font-style: italic
+
+  &-weight
+    &-thin
+      @include font-weight-thin
+
+    &-light
+      @include font-weight-light
+
+    &-regular
+      @include font-weight-regular
+
+    &-medium
+      @include font-weight-medium
+
+    &-bold
+      @include font-weight-bold
+
+    &-black
+      @include font-weight-black
+
+.text
+  &-capitalize
+    text-transform: capitalize
+
+  &-lowercase
+    text-transform: lowercase
+
+  &-none
+    text-transform: none
+
+  &-uppercase
+    text-transform: uppercase
+
+  &-center
+    text-align: center
+
+  &-left
+    text-align: left
+
+  &-right
+    text-align: right
+
+  &-start
+    text-align: start
+
+  &-end
+    text-align: end

@@ -1,0 +1,113 @@
+.m-0 {
+  margin: 0;
+}
+.m-1 {
+  margin: 2rem;
+}
+.m-2 {
+  margin: 4rem;
+}
+.m-3 {
+  margin: 6rem;
+}
+.m-4 {
+  margin: 8rem;
+}
+.m-5 {
+  margin: 10rem;
+}
+.m-6 {
+  margin: 12rem;
+}
+.m-7 {
+  margin: 14rem;
+}
+.m-8 {
+  margin: 16rem;
+}
+
+.-m-0 {
+  margin: 0;
+}
+.-m-1 {
+  margin: -2rem;
+}
+.-m-2 {
+  margin: -4rem;
+}
+.-m-3 {
+  margin: -6rem;
+}
+.-m-4 {
+  margin: -8rem;
+}
+.-m-5 {
+  margin: -10rem;
+}
+.-m-6 {
+  margin: -12rem;
+}
+.-m-7 {
+  margin: -14rem;
+}
+.-m-8 {
+  margin: -16rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+.p-1 {
+  padding: 2rem;
+}
+.p-2 {
+  padding: 4rem;
+}
+.p-3 {
+  padding: 6rem;
+}
+.p-4 {
+  padding: 8rem;
+}
+.p-5 {
+  padding: 10rem;
+}
+.p-6 {
+  padding: 12rem;
+}
+.p-7 {
+  padding: 14rem;
+}
+.p-8 {
+  padding: 16rem;
+}
+
+.-p-0 {
+  padding: 0;
+}
+.-p-1 {
+  padding: -2rem;
+}
+.-p-2 {
+  padding: -4rem;
+}
+.-p-3 {
+  padding: -6rem;
+}
+.-p-4 {
+  padding: -8rem;
+}
+.-p-5 {
+  padding: -10rem;
+}
+.-p-6 {
+  padding: -12rem;
+}
+.-p-7 {
+  padding: -14rem;
+}
+.-p-8 {
+  padding: -16rem;
+}
+
+/*# sourceMappingURL=spacing.css.map */

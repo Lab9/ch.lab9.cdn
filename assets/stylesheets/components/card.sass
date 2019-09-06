@@ -1,0 +1,65 @@
+@mixin material-shadow-0
+  box-shadow: none
+
+@mixin material-shadow-1
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
+
+@mixin material-shadow-2
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+
+@mixin material-shadow-3
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)
+
+@mixin material-shadow-4
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)
+
+@mixin material-shadow-5
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22)
+
+.card
+  border-radius: .5rem
+  background-color: #fafafa
+  display: inline-block
+  position: relative
+  height: auto
+  min-width: 10rem
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1)
+  @include material-shadow-3
+
+  &:hover
+    @include material-shadow-5
+
+  .card-image
+    padding: 0
+    margin: 0
+    width: 100%
+    height: auto
+    position: relative
+
+    & > img
+      width: 100%
+
+  .card-title
+    padding: 1rem 2rem
+
+  .card-body
+    padding: 1rem 2rem
+
+.shadow
+  &-0
+    box-shadow: none
+
+  &-1
+    @include material-shadow-1
+
+  &-2
+    @include material-shadow-2
+
+  &-3
+    @include material-shadow-3
+
+  &-4
+    @include material-shadow-4
+
+  &-5
+    @include material-shadow-5

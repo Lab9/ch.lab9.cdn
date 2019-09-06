@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Perfograma";
+  src: local("Perfograma"), url("http://cdn.lab9.ch:64061/static/asset/font/perfograma/Perfograma-Regular.otf") format("opentype");
+  src: local("Perfograma"), url("http://cdn.lab9.ch:64061/static/asset/font/perfograma/Perfograma-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=perfograma.css.map */

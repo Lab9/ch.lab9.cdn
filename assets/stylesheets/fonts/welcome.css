@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Welcome";
+  src: local("Welcome"), url("http://cdn.lab9.ch:64061/static/asset/font/welcome/Welcome.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=welcome.css.map */

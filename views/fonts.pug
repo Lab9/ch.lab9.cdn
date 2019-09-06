@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    .height-full.width-screen.primary.min-height-screen
+        .container.flex.row.align-center.justify-center.height-full.min-height-screen.width-screen
+            each font in fonts
+                a.grow.ma-1(href="fonts/" + font)
+                    .card.width-full.primary.cursor-pointer.pa-2
+                        .card-title.text-capitalize.secondary--text
+                            h1.display-1.text-center(class="font-" + font)=font

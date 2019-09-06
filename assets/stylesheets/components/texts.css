@@ -1,0 +1,91 @@
+.display-4 {
+  font-size: 5.99em;
+  font-weight: 300;
+}
+.display-3 {
+  font-size: 3.744em;
+  font-weight: 300;
+}
+.display-2 {
+  font-size: 2.995em;
+  font-weight: 400;
+}
+.display-1 {
+  font-size: 2.122em;
+  font-weight: 400;
+}
+
+.headline {
+  font-size: 1.498em;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 1.248em;
+  font-weight: 500;
+}
+
+.subtitle-1 {
+  font-size: 0.998em;
+  font-weight: 400;
+}
+.subtitle-2 {
+  font-size: 0.874em;
+  font-weight: 500;
+}
+
+.body-1 {
+  font-size: 0.998em;
+  font-weight: 400;
+}
+.body-2 {
+  font-size: 0.874em;
+  font-weight: 400;
+}
+
+.caption {
+  font-size: 0.749em;
+  font-weight: 400;
+}
+
+.overline {
+  font-size: 0.624em;
+  font-weight: 400;
+}
+
+.font-italic {
+  font-style: italic;
+}
+.font-weight-thin {
+  font-weight: 100;
+}
+.font-weight-light {
+  font-weight: 300;
+}
+.font-weight-regular {
+  font-weight: 400;
+}
+.font-weight-medium {
+  font-weight: 500;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+.font-weight-black {
+  font-weight: 900;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-none {
+  text-transform: none;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=texts.css.map */

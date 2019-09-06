@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    .height-screen.width-screen.primary
+        .flex.align-center.justify-center.column.height-full
+            .container.flex.row.align-center.justify-start.shrink.pa-2
+                a.secondary--text.title(href="http://cdn.lab9.ch:64073/display/fonts")="Fonts"
+            .container.flex.align-center.justify-center.grow.pa-4
+                h1.display-3.secondary--text.width-32.text-center(class="font-"+fontFamily contenteditable)="The quick brown fox jumps over the lazy dog."

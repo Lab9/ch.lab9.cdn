@@ -1,0 +1,6 @@
+extends layout
+
+block content
+    h1.title.secondary--text= message
+    h2.display-4.error--text= error.status
+    pre.tooltip--text #{error.stack}
